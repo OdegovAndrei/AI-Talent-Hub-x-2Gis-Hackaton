@@ -76,39 +76,6 @@ Notes:
 - Packaging: Docker, Docker Compose
 - Node tooling: TypeScript, ESLint, Prettier, Vitest, Cypress
 
----
-
-### Typical Use Cases
-- Local AI assistant for demos and product pitches
-- Private RAG chat over PDFs, docs, and web pages
-- Team knowledge base with RBAC and multi-model comparison
-
----
-
-### How To Develop
-
-Frontend dev server:
-```bash
-cd UI/AI-Talent-Hub-x-2Gis-Hackaton
-npm install
-npm run dev
-```
-
-Backend dependencies (for local Python tooling):
-```bash
-cd UI/AI-Talent-Hub-x-2Gis-Hackaton/backend
-python -m venv .venv && source .venv/bin/activate
-pip install -r requirements.txt
-```
-
----
-
-### Why This Project Works Well For a Hackathon
-- Rapid setup: run locally or with Compose in minutes
-- Strong baseline features: chat, RAG, tools, voice/video, images
-- Extensible: plugins/pipelines to add custom logic and integrations
-
----
 
 ### License
 This repository builds on Open WebUI (BSD-3-Clause variant). See the original `LICENSE` in the project root for details.
